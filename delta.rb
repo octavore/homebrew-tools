@@ -1,8 +1,8 @@
 class Delta < Formula
   desc "diff tool with browser-based GUI"
   homepage "https://github.com/octavore/delta"
-  url "https://github.com/octavore/delta/releases/download/v0.5.0/delta-0.5.0.tar.gz"
-  sha256 "4e907c9f00d418d3b6b02a19639047ac1a9fb4126f905ebfd773641e43fafa0d"
+  url "https://github.com/octavore/delta/releases/download/v0.6.1/delta-0.6.1.tar.gz"
+  sha256 "f0f2ff1995a53579fe188c5e70a1a649926b5bca7026160f619e9d37b35f4a5f"
 
   bottle :unneeded
 
