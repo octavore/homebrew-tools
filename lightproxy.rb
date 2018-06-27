@@ -1,8 +1,8 @@
 class Lightproxy < Formula
-  desc "diff tool with browser-based GUI"
+  desc "Use domain names for localhost services"
   homepage "https://github.com/octavore/lightproxy"
-  url "https://github.com/octavore/lightproxy/releases/download/v0.1.0/lightproxy-0.1.0.tar.gz"
-  sha256 "71229b19b56df001967ad296ff9e20d7d5eb546f7ab9bbaf32170ed190d9aafb"
+  url "https://github.com/octavore/lightproxy/releases/download/v1.0.1/lightproxy_1.0.1_darwin_amd64.tar.gz"
+  sha256 "148c47310634fa424896e9fa6c6eeeb7b10aa174d7b44e22e19e5e7eed27cf64"
 
   bottle :unneeded
 
@@ -15,6 +15,6 @@ class Lightproxy < Formula
   end
 
   test do
-    system "#{bin}/lightproxy", "--version"
+    system "#{bin}/lightproxy", "version"
   end
 end
