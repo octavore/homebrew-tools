@@ -8,7 +8,8 @@ class Lightproxy < Formula
   bottle :unneeded
 
   def install
-    bin.install "lightproxy"
+    libexec.install Dir["*"]
+    (bin/"lightproxy").write_env_script "#{libexec}/lightproxy", :XDG_CONFIG_HOME => etc
   end
 
   def post_install
