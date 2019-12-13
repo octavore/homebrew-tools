@@ -1,9 +1,9 @@
 class Lightproxy < Formula
   desc "Use domain names for localhost services"
   homepage "https://github.com/octavore/lightproxy"
-  url "https://github.com/octavore/lightproxy/releases/download/v1.2.0/lightproxy_1.2.0_darwin_amd64.tar.gz"
-  version "v1.2.0"
-  sha256 "b725ca2a078805349bdb013331ba8fed160025661f979392c490f4c1d4537519"
+  url "https://github.com/octavore/lightproxy/releases/download/v1.2.1/lightproxy_1.2.1_darwin_amd64.tar.gz"
+  version "v1.2.1"
+  sha256 "8998c2d499d2676279b5ac9532344d1564cb5c2237688e10b6096b0fa5382b4d"
 
   bottle :unneeded
 
