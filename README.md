@@ -14,3 +14,13 @@ This repo simplifies installation of my homegrown tools, such as:
 brew install octavore/tools/delta
 brew install octavore/tools/lightproxy
 ```
+
+
+## Developing
+
+Symlink this repo to:
+
+```
+ln -nfs $PWD `brew --repo`/Library/Taps/octavore/homebrew-tools
+brew install octavore/tools/lightproxy
+```
