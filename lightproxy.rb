@@ -5,8 +5,6 @@ class Lightproxy < Formula
   version "v1.2.2"
   sha256 "3920e84009d92347d1c7677d3314a2775ef850761a6b1b81ae2c90d8da158faf"
 
-  bottle :unneeded
-
   def install
     libexec.install Dir["*"]
     (bin/"lightproxy").write_env_script "#{libexec}/lightproxy", :XDG_CONFIG_HOME => etc
