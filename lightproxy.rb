@@ -1,9 +1,9 @@
 class Lightproxy < Formula
   desc "Use domain names for localhost services"
   homepage "https://github.com/octavore/lightproxy"
-  url "https://github.com/octavore/lightproxy/releases/download/v1.2.2/lightproxy_1.2.2_darwin_amd64.tar.gz"
-  version "v1.2.2"
-  sha256 "3920e84009d92347d1c7677d3314a2775ef850761a6b1b81ae2c90d8da158faf"
+  url "https://github.com/octavore/lightproxy/releases/download/v1.3.0/lightproxy_1.3.0_darwin_amd64.tar.gz"
+  version "v1.3.0"
+  sha256 "ecbd51edda429b4d6ee538a4d016bed79cf26967ade72be914e9ddb13ef4b033"
 
   def install
     libexec.install Dir["*"]
