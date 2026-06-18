@@ -1,13 +1,13 @@
 class Strudel < Formula
   desc "Build, sign, notarize, and package macOS Swift apps."
   homepage "https://github.com/octavore/strudel"
-  version "0.3.1"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/octavore/strudel/releases/download/v0.3.1/strudel-v0.3.1-aarch64-apple-darwin.tar.gz"
-      sha256 "a57c88c0a9e89453e0eb2e3a7edc3c854e9a273fb02cb6279e72c3be62709f69"
+      url "https://github.com/octavore/strudel/releases/download/v0.4.0/strudel-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "cdd941343c73b2fc448c126b3cba60b84d9187b23a60b81bb9cad2120dcf07b5"
     elsif Hardware::CPU.intel?
       odie "strudel is not supported on Intel macs"
     end
